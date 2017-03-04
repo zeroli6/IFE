@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IFE 1</title>
+	<!-- <style type="text/css">
+		table,tr,th,td{
+			border: 1px black solid;
+			margin: 1px;
+		}
+		table{
+			background: #d6c9c6;
+		}
+	</style> -->
+</head>
+<body>
+	<h1>一级标题</h1>
+	<ul>
+		<li><a href="http://ife.baidu.com">导航1</a></li>
+		<li><a href="http://ife.baidu.com">导航2</a></li>
+		<li><a href="http://ife.baidu.com">导航3</a></li>
+		<li><a href="http://ife.baidu.com">导航4</a></li>
+	</ul>
+	<h2>二级标题</h2>
+	<h2>二级标题</h2>
+	<p>这是段落，这是链接<a href="http://ife.baidu.com">IFE</a></p>
+	<img src="imgs/exercise1.jpg" style="width: 150px;height: 150px">
+	<p>如下是一张表格，加上border=1方便查看</p>
+	<table border="1">
+		<tr>
+			<th>表头</th>
+			<th>表头</th>
+			<th>表头</th>						
+		</tr>
+		<tr>
+			<td>表格</td>
+			<td>表格</td>
+			<td>表格</td>
+		</tr>
+		<tr>
+			<td>表格</td>
+			<td>表格</td>
+			<td>表格</td>
+		</tr>
+	</table>
+	<aside>
+		<h2>这是一个侧边栏</h2>
+		<p>具体形式以后设置</p>
+	</aside>
+	<form method="post" action="">
+		请输入邮箱地址：
+		<input type="email" name="address" placeholder="Enter email"><br>
+		邮箱地址请按邮箱格式输入<br>
+		请输入密码：
+		<input type="password" name="password1" min="6" max="16"><br> <!--限制位数-->
+		请再次输入密码：
+		<input type="password" name="password2" min="6" max="16"><br>
+		密码为6-16位<br>
+		性别：
+		<input type="radio" name="sex" id="male"><label for="male">男</label>
+		<input type="radio" name="sex" id="female"><label for="female">女</label><br>
+		城市：
+		<select>
+			<option selected="selected">北京</option>
+			<option>上海</option>
+			<option>广州</option>
+		</select>
+		<br>
+		爱好：
+		<input type="checkbox" name="hobby" id="hobby1"><label for="hobby1">运动</label>
+		<input type="checkbox" name="hobby" id="hobby2"><label for="hobby2">艺术</label>
+		<input type="checkbox" name="hobby" id="hobby3"><label for="hobby3">科学</label>
+		<br>
+		个人描述：<br>
+		<textarea rows="5" cols="10" placeholder="请输入个人描述"></textarea>
+		<br>
+		<input type="submit" name="submit" value="提交">
+	</form>
+</body>
+</html>
